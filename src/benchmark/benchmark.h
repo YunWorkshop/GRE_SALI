@@ -59,6 +59,7 @@ class Benchmark {
     bool memory_record;
     bool dataset_statistic;
     bool data_shift = false;
+    bool hot_write = false;
 
     std::vector <KEY_TYPE> init_keys;
     KEY_TYPE *keys;
